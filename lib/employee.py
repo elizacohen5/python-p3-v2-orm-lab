@@ -198,6 +198,3 @@ class Employee:
         return [
             Review.instance_from_db(row) for row in rows
         ]
-
-eliza = Employee('eliza', 'swe', 1)
-eliza.save()
